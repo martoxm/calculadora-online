@@ -19,3 +19,9 @@ function calcular() {
     visor.value = "Erro"
   }
 }
+
+const colorPicker = document.getElementById("colorPicker")
+
+colorPicker.addEventListener("input", function () {
+  document.querySelector(".calculadora").style.background = this.value
+})

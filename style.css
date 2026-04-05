@@ -10,10 +10,22 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh;
+  margin: 0;
+}
+:root {
+  --calc-bg: #333;
+  --btn-bg: #444;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
 }
 
 .calculadora {
-  background: #333;
+  background: var(--calc-bg);
   padding: 20px;
   border-radius: 10px;
   width: 260px;
@@ -42,6 +54,8 @@ button {
   border: none;
   border-radius: 5px;
   cursor: pointer;
+  color: white;
+  background: var(--btn-bg);
 }
 
 button:hover {
@@ -50,6 +64,21 @@ button:hover {
 
 .igual {
   grid-column: span 3;
+}
+
+.custom-color {
+  margin-top: 8px;
+  text-align: center;
+  color: #fff;
+  font-size: 16px;
+}
+.custom-color input {
+  margin-top: 8px;
+  width: 50px;
+  height: 35px;
+  cursor: pointer;
+  border: none;
+  background: none;
 }
 
 .footer {
