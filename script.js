@@ -25,3 +25,37 @@ const colorPicker = document.getElementById("colorPicker")
 colorPicker.addEventListener("input", function () {
   document.querySelector(".calculadora").style.background = this.value
 })
+
+document.addEventListener("keydown", function (event) {
+  const tecla = event.key
+
+  // Se for número
+  if (!isNaN(tecla)) {
+    adicionar(tecla)
+  }
+
+  // Operações
+  if (["+", "-", "*", "/"].includes(tecla)) {
+    adicionar(tecla)
+  }
+
+  // Ponto
+  if (tecla === ".") {
+    adicionar(".")
+  }
+
+  // Enter = calcular
+  if (tecla === "Enter") {
+    calcular()
+  }
+
+  // Backspace = apagar
+  if (tecla === "Backspace") {
+    apagar()
+  }
+
+  // Escape = limpar
+  if (tecla === "Escape") {
+    limpar()
+  }
+})
