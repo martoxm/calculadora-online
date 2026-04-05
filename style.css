@@ -3,7 +3,9 @@
   font-family: Arial, sans-serif;
 }
 body {
-  background: #222;
+  background: linear-gradient(135deg, #0d1117, #1f2937, #007acc, #22c55e);
+  background-size: 400% 400%;
+  animation: gradient 12s ease infinite;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -62,5 +64,17 @@ button:hover {
 }
 
 .footer strong {
-  color:blueviolet
+  color: blueviolet;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
 }
