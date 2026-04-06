@@ -1,4 +1,5 @@
 const visor = document.getElementById("visor")
+const headerSubtitle = document.getElementById("headerSubtitle")
 
 function adicionar(valor) {
   visor.value += valor
@@ -25,6 +26,23 @@ const colorPicker = document.getElementById("colorPicker")
 colorPicker.addEventListener("input", function () {
   document.querySelector(".calculadora").style.background = this.value
 })
+
+function atualizarSubtitulo() {
+  if (!headerSubtitle) {
+    return
+  }
+
+  const agora = new Date()
+  const horario = agora.toLocaleTimeString("pt-BR", {
+    hour: "2-digit",
+    minute: "2-digit",
+  })
+
+  headerSubtitle.textContent = `Pronta para somar, subtrair, multiplicar e dividir. Agora são ${horario}.`
+}
+
+atualizarSubtitulo()
+setInterval(atualizarSubtitulo, 60000)
 
 document.addEventListener("keydown", function (event) {
   const tecla = event.key
