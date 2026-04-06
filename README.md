@@ -34,6 +34,10 @@ Projeto criado para estudo e prática de desenvolvimento web, com foco em lógic
 - Abra o arquivo index.html no navegador
 - Use a calculadora normalmente
 
+<h1>📚 Documentação técnica</h1>
+
+Se quiser revisar com calma o que foi feito no layout, no header e na interatividade, leia o arquivo [DOCUMENTACAO_HEADER_INTERATIVO.md](./DOCUMENTACAO_HEADER_INTERATIVO.md). Ele foi escrito para servir como material de estudo e para reaplicar a mesma ideia em outros projetos.
+
 <h1>🎯 Objetivo do Projeto</h1>
 
 Este projeto foi desenvolvido como parte do meu aprendizado em desenvolvimento web, com foco em:
