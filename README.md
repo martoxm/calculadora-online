@@ -38,6 +38,8 @@ Projeto criado para estudo e prática de desenvolvimento web, com foco em lógic
 
 Se quiser revisar com calma o que foi feito no layout, no header e na interatividade, leia o arquivo [DOCUMENTACAO_HEADER_INTERATIVO.md](./DOCUMENTACAO_HEADER_INTERATIVO.md). Ele foi escrito para servir como material de estudo e para reaplicar a mesma ideia em outros projetos.
 
+Para uma revisao mais completa de toda a aplicacao (estrutura, estilo, logica, decisoes tecnicas e checklist de reaplicacao), leia tambem [DOCUMENTACAO_COMPLETA_PROJETO.md](./DOCUMENTACAO_COMPLETA_PROJETO.md).
+
 <h1>🎯 Objetivo do Projeto</h1>
 
 Este projeto foi desenvolvido como parte do meu aprendizado em desenvolvimento web, com foco em:
@@ -59,5 +61,3 @@ Gabriel — Desenvolvedor Web em formação
 📧 gabriel.martorelli@hotmail.com
 
 💼 https://www.linkedin.com/in/gabrielmartorelli
-
-
