@@ -4,8 +4,12 @@
 }
 
 html {
-  min-height: 100%;
+  min-height: 100vh;
   background: linear-gradient(135deg, #0d1117, #1f2937, #007acc, #22c55e);
+  background-color: (#0d1117);
+  background: transparent;
+  position: relative;
+  z-index: 0;
 }
 body {
   background: linear-gradient(135deg, #0d1117, #1f2937, #007acc, #22c55e);
