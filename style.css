@@ -30,7 +30,7 @@ body::before {
   z-index: -1;
   pointer-events: none;
   transform: translateZ(0);
-  background: (135deg, #0d1117, #1f2937, #007acc, #22c55e);
+  background: (#0d1117);
 }
 :root {
   --calc-bg: #333;
